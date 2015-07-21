@@ -10,14 +10,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 tex-center">
-        <div class="header">
-            <h1>Bogly</h1>
-            <h3>Your place to journey to where the magical creatures of the world hang out!</h3>
+<nav class="navbar">
+    <div class="container-fluid">
+          <h1>Bogly</h1>
+          <h3>Your place to journey to where the magical creatures of the world hang out!</h3>
         <div>
-        <%= yield %>
+          <ul class="nav navbar-righ">
+            <%= link_to "home", root_path %>
+            <%= link_to "Bogly", creatures_path %>
+          </ul>
         </div>
+    </div>
+</nav>
 </body>
 </html>

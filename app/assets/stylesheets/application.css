@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background-image: url(http://www.newenglandinnsandresorts.com/wp-content/uploads/2014/08/IMG_1635.jpg);
+}
+
+#bog_title {
+  color: #4FFFAD;
+}
+
+.navbar {
+  color: #EB6F47;
+}
